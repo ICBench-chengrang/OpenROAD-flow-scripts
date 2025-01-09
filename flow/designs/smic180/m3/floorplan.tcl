@@ -19,7 +19,7 @@ initialize_floorplan -utilization 30 -aspect_ratio 1.0 -core_space 2 -site smic1
 make_tracks 
 
 place_pins -hor_layers METAL3 -ver_layers METAL4 -random
-write_pin_placement "${FLOWDIR}/results/smic180/m3/base/fp.io.txt" -placed_status
+#write_pin_placement "${FLOWDIR}/results/smic180/m3/base/fp.io.txt" -placed_status
 
 tapcell \
    -distance 30 \
